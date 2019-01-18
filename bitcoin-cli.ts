@@ -1,3 +1,4 @@
+// This is a wrapper around bitcoin-cli to make it more easily callable from Node.js
 import { RpcOptions, BitcoinRpc } from './types';
 import { promisify } from 'util';
 import { execFile } from 'child_process';
